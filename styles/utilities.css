@@ -1,0 +1,11 @@
+.bg-dominant {
+    background-color: var(--color-dominant);
+}
+
+.bg-complement {
+    background-color: var(--color-complement);
+}
+
+.text-white {
+    color: var(--color-dominant);
+}

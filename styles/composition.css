@@ -1,3 +1,12 @@
+:root {
+    --color-dominant: #FFFFFF;
+    --color-contrast: #757575;
+    --color-complement: #F1F1F1;
+
+    --card-padding: 1rem;
+    --card-distance: 2rem;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -15,6 +24,31 @@ h1, h2, h3, h4 {
     line-height: .9;
 }
 
+#main-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#main-menu>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu .main-menu_button {
+    flex: 1;
+}
+
+#main-menu .main-menu_button>a {
+    display: block;
+    padding: 0.5rem;
+    height: 2.5rem;
+    text-align: center;
+}
+
 .title-card {
     margin: 0;
     padding: 1rem 0;
@@ -24,3 +58,11 @@ h1, h2, h3, h4 {
 img {
     max-width: 100%;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
