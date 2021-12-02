@@ -5,60 +5,81 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tristan's Portfolio</title>
+        <link rel="stylesheet" href="styles/composition.css">
+        <link rel="stylesheet" href="styles/utilities.css">
+        <link rel="stylesheet" href="styles/blocks.css">
     </head>
     <body>
-        <nav>
+        <nav id="main-menu">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Projecten</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projecten.html">Projecten</a></li>
             </ul>
         </nav>
-        
-        <h1>
-            Tristan's Portfolio
-        </h1>
-        <h2>
-            Welkom op de website van Tristan
-        </h2>
 
-        <img src="images/me.png" alt="Een afbeelding van mezelf">
+        <!--Begin header-->
+        <header>
+            <h1 class="title-card">
+                Tristan's Portfolio
+            </h1>
+            <h2 class="title-card">
+                Welkom op de website van Tristan
+            </h2>
+        </header>
+        <!--Einde header-->
 
-        <h2>
-            Wie ben ik?
-        </h2>
-        <p>
-            Ik ben Tristan D'hondt. Op dit moment zit in 5BIN oftewel het vijde jaar in Boekhouden-Informatica. Deze richting trok mijn aandacht omdat ik geïnteresseerd ben in informatica en zo wat alles wat er bij komt kijken. Het tofste van dit jaar vond ik het maken van de websites zelf, HTML en CSS vind ikzelf al twee ontzettend toffe programeertalen en ik hoop dat we er nog andere gaan leren kennen dit schooljaar. Andere interesses van mijn zijn muziek (Eminem, Green Day, ...) en films (Marvel en andere genres zoals science-fiction).
-        </p>
+        <main>
+            <!--Begin kennismaking-->
+            <section>
+                <img src="images/me.png" alt="Een afbeelding van mezelf">
+                <h2>
+                    Wie ben ik?
+                </h2>
+                <p>
+                    Ik ben Tristan D'hondt. Op dit moment zit in 5BIN oftewel het vijde jaar in Boekhouden-Informatica. Deze richting trok mijn aandacht omdat ik geïnteresseerd ben in informatica en zo wat alles wat er bij komt kijken. Het tofste van dit jaar vond ik het maken van de websites zelf, HTML en CSS vind ikzelf al twee ontzettend toffe programeertalen en ik hoop dat we er nog andere gaan leren kennen dit schooljaar. Andere interesses van mijn zijn muziek (Eminem, Green Day, ...) en films (Marvel en andere genres zoals science-fiction).
+                </p>
+            </section>
+            <!--Einde kennismaking-->
 
-        <h2>
-            Mijn projecten
-        </h2>
-        <ul>
-            <li>
-                <a href="#">Hägar The Giant Viking</a>
+            <!--Begin projecten-->
+            <section>
+                <h2>
+                    Mijn projecten
+                </h2>
                 <ul>
-                    <li>De eerste website die ik ooit maakte, gebasseerd op een zelfverzonnen superheld</li>
-                </ul> 
-            </li>
-            <li>
-                <a href="#">Project 2</a>
-                <ul>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis corrupti officia dolore quidem numquam.</li>
-                </ul> 
-            </li>
-        </ul>
+                    <li>
+                        <a href="#">Hägar The Giant Viking</a>
+                        <ul>
+                            <li>De eerste website die ik ooit maakte, gebasseerd op een zelfverzonnen superheld.</li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <a href="#">Project 2</a>
+                        <ul>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis corrupti officia dolore quidem numquam.</li>
+                        </ul> 
+                    </li>
+                </ul>
+            </section>
+            <!--Einde projecten-->
 
-        <h2>
-            Eerste blogpost
-        </h2>
-        <h3>Geplaatst op <time datetime="2021-12-01 00:00">1 december 2021</time></h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum repellendus quod ullam minus neque, aut, beatae quia, et deleniti omnis reprehenderit nostrum sequi dolorem delectus quis hic voluptates explicabo.
-        </p>
-        <a href="blog.html">Lees Verder</a>
+            <!--Begin blog-->
+            <section>
+                <img src="images/blog.jpg" alt="Foto die te maken heeft met mijn blogpost">
+                <h2>
+                    Eerste blogpost
+                </h2>
+                <h3>Geplaatst op <time datetime="2021-12-01 00:00">1 december 2021</time></h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum repellendus quod ullam minus neque, aut, beatae quia, et deleniti omnis reprehenderit nostrum sequi dolorem delectus quis hic voluptates explicabo.
+                </p>
+                <a href="blog.html">Lees Verder</a>
+            </section>
+            <!--Einde blog-->
+        </main>
+        <footer>
+            <p>Powered by <a class="text-white" href="https://www.w3schools.com/">w3schools.com</a></p>
+        </footer>
     </body>
-    <footer>
-        <p>Powered by <a class="text-white" href="https://www.w3schools.com/">w3schools.com</a></p>
-    </footer>
 </html>
