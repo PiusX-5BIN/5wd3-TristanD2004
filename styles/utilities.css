@@ -6,6 +6,26 @@
     background-color: var(--color-complement);
 }
 
+.bg-contrast {
+    background-color: var(--color-contrast);
+}
+
 .text-white {
     color: var(--color-dominant);
+}
+
+.text-dominant {
+    background-color: var(--color-dominant);
+}
+
+.text-complement {
+    background-color: var(--color-complement);
+}
+
+.text-contrast {
+    background-color: var(--color-contrast);
+}
+
+.text-accent {
+    background-color: var(--color-accent);
 }
